@@ -1,0 +1,28 @@
+name: kitchen_n
+description: App del restaurante Kitchen N - Comida tipica colombiana
+publish_to: 'none'
+version: 1.0.0+1
+ 
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+ 
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/arroz-atollado.jpg
+    - assets/images/arroz-de-coco-y-pescado-frito.jpg
+    - assets/images/bandeja-paisa.jpg
+    - assets/images/cocido-boyacense.jpg
+    - assets/images/lechona-tolimense.jpg
+    - assets/images/Kitchen_N-banner.png
+ 
